@@ -5,15 +5,19 @@ using namespace std;
 int main()
 {
     char c;
-    cout<<"Enter a letter: ";
-    cin>>c;
-    if(c >= 'a' && c <= 'z')
+    cout << "Enter a letter: ";
+    cin >> c;
+    if (c >= 'a' && c <= 'z')
     {
-        cout<< "Uppercase is:"<<(char)toupper(c)<<endl;
+        cout << "Uppercase is:" << (char)toupper(c) << endl;
+    }
+    else if (c >= 'A' && c <= 'Z')
+    {
+        cout << "Lowercase is:" << (char)tolower(c) << endl;
     }
     else
     {
-        cout<< "Lowercase is:"<<(char)tolower(c)<<endl;
+        cout << "Invalid letter." << endl;
     }
     return 0;
 }
