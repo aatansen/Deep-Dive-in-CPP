@@ -1,4 +1,4 @@
-// Write a program in C++ to Separate the vowels and constants from a given string.
+// Write a program to Separate the vowels and constants from a given string.
 #include <iostream>
 using namespace std;
 
