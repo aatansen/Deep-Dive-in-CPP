@@ -9,11 +9,11 @@ int main()
     cin >> c;
     if (c >= 'a' && c <= 'z')
     {
-        cout << "Uppercase is:" << (char)toupper(c) << endl;
+        cout<< "Uppercase is: "<<char(int(c)-32);
     }
     else if (c >= 'A' && c <= 'Z')
     {
-        cout << "Lowercase is:" << (char)tolower(c) << endl;
+        cout<< "Lowercase is: "<<char(int(c)+32);
     }
     else
     {
