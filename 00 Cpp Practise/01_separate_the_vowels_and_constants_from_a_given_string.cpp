@@ -16,7 +16,7 @@ int main()
 
             cout << "Vowel :" << st[i] << endl;
             vowels++;
-        }else if (st[i]==' '){
+        }else if (st[i]<=char(64) || (st[i]>=char(91) && st[i]<=char(96)) || (st[i]>=char(123) && st[i]<=char(127))){
             continue;
         }
         else
