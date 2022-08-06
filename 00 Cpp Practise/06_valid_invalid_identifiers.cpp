@@ -10,7 +10,7 @@ bool isValid(string str, int n)
         return false;
 
     // Check other characters are invalid
-    for (int i = 1; i < str.length(); i++)
+    for (int i = 1; i < n; i++)
     {
         if (!((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= '0' && str[i] <= '9') || (str[i] == '_')))
             return false;
@@ -24,7 +24,7 @@ int main()
 {
     string str;
     cout << "Enter a string: ";
-    cin >> str;
+    getline(cin,str);
     int n = str.length();
 
     if (isValid(str, n))
