@@ -31,7 +31,17 @@ int main()
         cout << "It is called Modulus Equal to Operator." << endl;
     }
 
-        // Logical Operators
+    // Increment and Decrement Operators
+    else if (st[i] == '+' && st[i + 1] == '+')
+    {
+        cout << "It is called Increment Operator." << endl;
+    }
+    else if (st[i] == '-' && st[i + 1] == '-')
+    {
+        cout << "It is called Decrement Operator." << endl;
+    }
+
+    // Logical Operators
     else if (st[i] == '&' && st[i + 1] == '&')
     {
         cout << "It is called Logical AND Operator." << endl;
@@ -96,7 +106,7 @@ int main()
     {
         cout << "It is called Less Than Operator." << endl;
     }
-    
+
     // Arithmetic Operators
     else if (st[i] == '+')
     {
