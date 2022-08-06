@@ -1,5 +1,4 @@
 // Count the number of occurrences of a character in a string.
-#include <stdbool.h>
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -18,10 +17,7 @@ int count_char(char *s)
                 already_count = true;
             }
         }
-        if (already_count)
-        {
-            continue;
-        }
+        if (already_count)continue;
         int count = 0;
         for (int j = 0; j < length; j++)
         {
