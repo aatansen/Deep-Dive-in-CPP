@@ -3,14 +3,6 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-int count_char(char *s);
-int main()
-{
-    char s[] = "I eat rice.";
-    count_char(s);
-    return 0;
-}
-
 int count_char(char *s)
 {
     int length = strlen(s);
@@ -38,21 +30,17 @@ int count_char(char *s)
                 count++;
             }
         }
-        cout<< "Total occurrence of Character " <<"'"<<s[i]<<"'" <<" is"<< " = " <<count<<endl;
+        cout << "Total occurrence of Character "<< "'" << s[i] << "'"<< " is"<< " = " << count << endl;
         unique[counted] = s[i];
         counted++;
     }
     return 0;
 }
-/*
-Output:
-Total occurrence of Character 'I' is = 1
-Total occurrence of Character ' ' is = 2
-Total occurrence of Character 'e' is = 2
-Total occurrence of Character 'a' is = 1
-Total occurrence of Character 't' is = 1
-Total occurrence of Character 'r' is = 1
-Total occurrence of Character 'i' is = 1
-Total occurrence of Character 'c' is = 1
-Total occurrence of Character '.' is = 1
-*/
+int main()
+{
+    char s[100];
+    cout << "Enter a string: ";
+    cin.getline(s, 100);
+    count_char(s);
+    return 0;
+}
