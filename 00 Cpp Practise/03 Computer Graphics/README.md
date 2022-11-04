@@ -1,4 +1,4 @@
-# Computer Graphics Project
+# Computer Graphics
 
 - Computer Graphics Basics
     - 01 Creating a Line
