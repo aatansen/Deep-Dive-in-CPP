@@ -35,9 +35,14 @@ int main()
     initgraph(&gd, &gm, "");
 
     int i,y=200;
+    int page=0;
 
     for(i=0; i<300; i++)
     {
+
+        setactivepage(page);
+        setvisualpage(1-page);
+        cleardevice();
 //Fish 1
         line(150+i,250,190+i,290);
         line(150+i,250,90+i,310);
@@ -98,7 +103,8 @@ int main()
         ellipse(530,390,0,360,21,10);
 
         delay(100);
-        cleardevice();
+
+        page=1-page;
     }
 
     getch();
