@@ -6,4 +6,4 @@
 
 ## C++ Programming Essentials for Beginners
 
-- [Basic C++](https://github.com/aatansen/Deep-Dive-in-CPP/tree/main/01%20C%2B%2B%20Programming%20Essentials%20for%20Beginners)
+- **[Basic C++](https://github.com/aatansen/Deep-Dive-in-CPP/tree/main/01%20C%2B%2B%20Programming%20Essentials%20for%20Beginners)**
