@@ -99,4 +99,17 @@
 <details>
 <summary>Coding Notes</summary>
 
+Using `sizeof()` Function to get the byte size:
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Int: " << sizeof(int) <<" Bytes"<< endl;
+
+    return 0;
+}
+```
+
 </details>
