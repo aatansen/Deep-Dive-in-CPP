@@ -94,6 +94,16 @@
 - Integer — `int`
 - Floating Point — `float`
 - Double Floating Point — `double`
+
+### Data-types Modifiers
+
+Several of the basic types can be modified using one or more of these type modifiers
+
+- signed
+- unsigned
+- short
+- long
+
 </details>
 
 <details>
