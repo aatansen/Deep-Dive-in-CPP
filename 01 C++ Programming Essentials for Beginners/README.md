@@ -104,6 +104,14 @@ Several of the basic types can be modified using one or more of these type modif
 - short
 - long
 
+### Bitwise Operators
+
+- Binary AND `&`
+- Binary OR `|`
+- Binary One’s Complement `~`
+- Binary Left Shift `<<`
+- Binary Right Shift `>>`
+
 </details>
 
 <details>
