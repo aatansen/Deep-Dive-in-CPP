@@ -99,8 +99,8 @@
 
 Several of the basic types can be modified using one or more of these type modifiers
 
-- signed
-- unsigned
+- signed (MSB use to represent the sign of the number `‘+’=0`,`’-’=1`)
+- unsigned(all bits use to represent the number)
 - short
 - long
 
