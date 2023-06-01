@@ -112,6 +112,11 @@ Several of the basic types can be modified using one or more of these type modif
 - Binary Left Shift `<<`
 - Binary Right Shift `>>`
 
+### Storage of Negative Numbers
+
+- 2’s complement is used to represent the negative number
+- In MSB it will be 1 for representing sign integer as negative number
+
 </details>
 
 <details>
