@@ -117,6 +117,38 @@ Several of the basic types can be modified using one or more of these type modif
 - 2’s complement is used to represent the negative number
 - In MSB it will be 1 for representing sign integer as negative number
 
+### Range of Integer
+
+- For unsigned , range is `0 to 2^32-1` is used
+- For signed ,  range is `-2^31 to 0 to 2^31-1` is used
+
+### Range of Double , Float, Half
+
+- `64 bit` is used for `double` where `11 bit` for `decimal` and `52 bit` for `double precision` and `1 bit` for `signed`
+- `32 bit` is used for `float` where `8 bit` for `decimal` and `23 bit` for `single precision` and `1 bit` for `signed`
+- `16 bit` is used for `half` where `5 bit` for `decimal` and `10 bit` for `precision` and `1 bit` for `signed`
+
+### Storage of Character
+
+- In C++ it takes only 1 byte
+- In Java in takes 2 bytes
+
+### Storage of Boolean
+
+- It take `1 byte`
+- Why 0 or 1 needs 1 byte not 1 bit?
+    - Because byte is the minimum unit for allocating memory
+- A non-zero value store as `true`
+
+### Constant
+
+- Constants are variables or values in programming language which cannot be modified once they are defined.
+- Initialization and assignment must be done at once ; doing separately won’t work.
+- It can be created in 2 ways
+    - Using `const` keyword
+    - Using preprocessing directive also known as symbolic constant or macros
+    - example : `#define ll long long`
+
 </details>
 
 <details>
