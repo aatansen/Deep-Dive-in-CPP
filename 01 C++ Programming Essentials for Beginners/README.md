@@ -104,14 +104,6 @@ Several of the basic types can be modified using one or more of these type modif
 - short
 - long
 
-### Bitwise Operators
-
-- Binary AND `&`
-- Binary OR `|`
-- Binary One’s Complement `~`
-- Binary Left Shift `<<`
-- Binary Right Shift `>>`
-
 ### Storage of Negative Numbers
 
 - 2’s complement is used to represent the negative number
@@ -148,6 +140,37 @@ Several of the basic types can be modified using one or more of these type modif
     - Using `const` keyword
     - Using preprocessing directive also known as symbolic constant or macros
     - example : `#define ll long long`
+
+## 03 Operators & Expressions
+
+### Bitwise Operators
+
+- Binary AND `&`
+- Binary OR `|`
+- Binary One’s Complement `~`
+    - Not `~` usage in 0:
+        - `~0=1` where `0` is `bit`
+        - `~0=-1` where `0` is `int`
+        - example : int a=0; cout<<(~a); output is -1 where we need to initialize bits of 32 zero and MSB represent positive/negative , then apply `Not~` to it , in order to get the number rest of the 31 bits need to be in 2’s complement finally we will get `-1`
+- Binary Left Shift `<<`
+    - It does multiplication
+    - example: 5<<2:`0000101` will be `0010100`
+    - It make the number multiply by 2^b which is a<<b =a*2^b
+    - example:
+    
+    ```
+    5<<2
+    0000101
+    =2^2+2^0
+    0010100
+    =2^4+2^2
+    =2^2(2^2+2^0) here 2^2+2^0=5 original number which is multiply by 2^2
+    ```
+    
+- Binary Right Shift `>>`
+    - It does division
+    - example: 10>>1 `0001010` will be `0000101`
+    - It make the number divided by 2^b which is a>>b =a/2^b
 
 </details>
 
