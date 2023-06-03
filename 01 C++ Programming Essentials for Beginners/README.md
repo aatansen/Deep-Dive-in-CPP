@@ -190,4 +190,30 @@ int main()
 }
 ```
 
+If statement without bracket:
+
+```cpp
+int main(){
+    int mark=90;
+    if (mark>99)
+        cout<<"let's party"<<endl; // This will be in block
+				cout<<"not true"<<endl; // This will be outside of the block
+}
+```
+
+A code written outside the block it will always run:
+
+```cpp
+int main(){
+    int mark = 80;
+    if (mark>85){
+        cout<<"higher than 85"<<endl; // if block
+    }
+    else{
+        cout<<"Less than 85"<<endl; // else block
+    }
+    cout<<"Always run"<<endl; // outside the block
+}
+```
+
 </details>
