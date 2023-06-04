@@ -216,4 +216,24 @@ int main(){
 }
 ```
 
+In else if condition first one will get executed, it is useful when nested if create problem:
+
+```cpp
+int main(){
+    int mark=72;
+    if(mark>90){
+        cout<<"party"<<endl;
+    }
+    else if(mark>60){
+        cout<<"Go out"<<endl;//this will be executed
+   }
+   else if(mark>70){
+    cout<<"well done"<<endl;//this won't be executed
+   }
+   else{
+    cout<<"keep trying"<<endl;
+   }
+}
+```
+
 </details>
