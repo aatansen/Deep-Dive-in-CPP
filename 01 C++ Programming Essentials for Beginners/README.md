@@ -236,4 +236,16 @@ int main(){
 }
 ```
 
+Ternary Operator
+
+`condition?statement1:statement2`
+
+```cpp
+{
+    int x = 5;
+    x % 2 == 0 ? cout << "Even" : cout << "Odd";
+    return 0;
+}
+```
+
 </details>
