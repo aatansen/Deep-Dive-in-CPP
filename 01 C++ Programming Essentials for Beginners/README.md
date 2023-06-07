@@ -248,4 +248,25 @@ Ternary Operator
 }
 ```
 
+Switch case
+
+```cpp
+//for example only one case is shown , total will be 7 cases
+int main()
+{
+    int day;
+    cout << "Enter the number of a day:";
+    cin >> day;
+
+    switch (day)
+    {
+    case 1:
+        cout << "Monday";
+        break;
+    default:
+        cout << "Enter a valid input.";
+    }
+}
+```
+
 </details>
