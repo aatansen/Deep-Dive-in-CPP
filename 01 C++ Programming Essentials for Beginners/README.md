@@ -177,7 +177,9 @@ Several of the basic types can be modified using one or more of these type modif
 <details>
 <summary>Coding Notes</summary>
 
-Using `sizeof()` Function to get the byte size:
+## 04 Flow Control - Branching
+
+### Using `sizeof()` Function to get the byte size:
 
 ```cpp
 #include <iostream>
@@ -190,18 +192,18 @@ int main()
 }
 ```
 
-If statement without bracket:
+### If statement without bracket:
 
 ```cpp
 int main(){
     int mark=90;
     if (mark>99)
-        cout<<"let's party"<<endl; // This will be in block
-				cout<<"not true"<<endl; // This will be outside of the block
+    cout<<"let's party"<<endl; // This will be in block
+    cout<<"not true"<<endl; // This will be outside of the block
 }
 ```
 
-A code written outside the block it will always run:
+### A code written outside the block it will always run:
 
 ```cpp
 int main(){
@@ -216,7 +218,7 @@ int main(){
 }
 ```
 
-In else if condition first one will get executed, it is useful when nested if create problem:
+### In else if condition first one will get executed, it is useful when nested if create problem:
 
 ```cpp
 int main(){
@@ -236,7 +238,7 @@ int main(){
 }
 ```
 
-Ternary Operator
+### Ternary Operator
 
 `condition?statement1:statement2`
 
@@ -248,7 +250,7 @@ Ternary Operator
 }
 ```
 
-Switch case
+### Switch statement
 
 ```cpp
 //for example only one case is shown , total will be 7 cases
