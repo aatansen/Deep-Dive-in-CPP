@@ -1,20 +1,20 @@
 ## Environment Setup ([VSCode](https://code.visualstudio.com/))
 
 - SourceForge (old version):
-    - Download **[MinGW - Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/)** and install selecting all options.
-    - Add `bin` path of `MinGW` e.g: `C:\MinGW\bin`
+  - Download **[MinGW - Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/)** and install selecting all options.
+  - Add `bin` path of `MinGW` e.g: `C:\MinGW\bin`
 - TDM-GCC(setup and use):
-    - Download and install [tdm-gcc](https://jmeubank.github.io/tdm-gcc/)
+  - Download and install [tdm-gcc](https://jmeubank.github.io/tdm-gcc/)
 - Msys2 (Latest version - Recommended by vscode):
-    - Download latest Msys2 [installer](https://www.msys2.org/#installation) also available in [github](https://github.com/msys2/msys2-installer/releases) and install it.
-    - After install open msys2 and run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain` enter `Y` when asked for permission.
-    - Add `bin` path of `Msys2` e.g: `C:\msys64\ucrt64\bin`
+  - Download latest Msys2 [installer](https://www.msys2.org/#installation) also available in [github](https://github.com/msys2/msys2-installer/releases) and install it.
+  - After install open msys2 and run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain` enter `Y` when asked for permission.
+  - Add `bin` path of `Msys2` e.g: `C:\msys64\ucrt64\bin`
+  - To update the package open `msys` shell and run `pacman -S mingw-w64-ucrt-x86_64-toolchain`
+  > More sources available in [mingw-w64](https://www.mingw-w64.org/)
 
-> More sources available in [mingw-w64](https://www.mingw-w64.org/)
-> 
 - Install **[C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)** & **[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extension**
 - To run code that has spaces in filename (`first code.cpp`) add this in vscode setting:
-    
+
     ```json
     "code-runner.runInTerminal": true,
         "code-runner.executorMap": {
